@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/SpringGUI/Demo/01_FunctionalGraph/01_FunctionalGraph.unity
+  isLoaded: 1
+  isActive: 1

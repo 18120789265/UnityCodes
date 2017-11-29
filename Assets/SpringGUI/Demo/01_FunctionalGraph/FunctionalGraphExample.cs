@@ -15,16 +15,16 @@ public class FunctionalGraphExample : MonoBehaviour
     private void Start()
     {
         // method one
-        FunctionalGraph.Inject(Mathf.Sin , Color.red , 2.0f);
+        FunctionalGraph.Inject(Mathf.Cos , Color.red , 2.0f);
 
         // method two
-        FunctionalGraph.Inject(new FunctionFormula(Mathf.Cos , Color.green , 2.0f));
+        //FunctionalGraph.Inject(new FunctionFormula(Mathf.Cos , Color.green , 2.0f));
 
         // method three
-        FunctionalGraph.Inject( new List<FunctionFormula>()
-        {
-            new FunctionFormula(Mathf.Log10,Color.yellow,2.0f),
-            new FunctionFormula(Mathf.Abs,Color.cyan,2.0f)
-        } );
+        //FunctionalGraph.Inject( new List<FunctionFormula>()
+        //{
+        //    new FunctionFormula(Mathf.Log10,Color.yellow,2.0f),
+        //    new FunctionFormula(Mathf.Abs,Color.cyan,2.0f)
+        //} );
     }
 }

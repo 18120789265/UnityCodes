@@ -14,6 +14,8 @@ namespace SpringGUI
     [Serializable]
     public class FunctionalGraphBase
     {
+        [Header("Show Boadr")]
+        public bool ShowBoard = true;
         [Header("XY Axis Setting")]
         [Tooltip("Show XYAxisUnit")]
         public bool ShowXYAxisUnit = true;
